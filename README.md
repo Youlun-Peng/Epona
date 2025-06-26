@@ -3,4 +3,5 @@ The official code for ICCV 2025 paper *Epona: Autoregressive Diffusion World Mod
 
 ![](./assets/teaser.png)
 
+
 The code will come soon!
