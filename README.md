@@ -1,2 +1,4 @@
 # Epona
-Epona: Autoregressive Diffusion World Model for Autonomous Driving (ICCV 2025)
+The official code for ICCV 2025 paper *Epona: Autoregressive Diffusion World Model for Autonomous Driving*.
+
+The code will come soon!
