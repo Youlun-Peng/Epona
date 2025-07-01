@@ -45,16 +45,15 @@
     <sep>§</sep>Corresponding Author
   </p>
 
-  <div align="center">
-        <img src="./assets/teaser.png", width="800">
-  </div>
-
   <p align="center">
     <a href="https://arxiv.org/pdf/2506.24113"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-2312.07409-b31b1b.svg"></a>
     <a href="https://kevin-thu.github.io/Epona/"><img alt='page' src="https://img.shields.io/badge/Project-Website-orange"></a>
-    <a href="https://twitter.com/sze68zkw"><img alt='Twitter' src="https://img.shields.io/twitter/follow/sze68zkw?label=%40KaiwenZhang"></a>
+    <!-- <a href="https://twitter.com/sze68zkw"><img alt='Twitter' src="https://img.shields.io/twitter/follow/sze68zkw?label=%40KaiwenZhang"></a> -->
   </p>
-  <br>
+
+  <div align="center">
+        <img src="./assets/teaser.png", width="800">
+  </div>
 </p>
 
 The code will come soon!
