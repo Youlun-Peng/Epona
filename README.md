@@ -36,7 +36,7 @@
                 <a href="https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html" target="_blank">Xun Cao</a>,
               </span>
               <span class="author-block">
-                <a href="http://yvanyin.net/" target="_blank">Wei Yin</a><sup>§</sup>
+                <a href="https://yvanyin.xyz/" target="_blank">Wei Yin</a><sup>§</sup>
   </p>
 
   <p align="center">
