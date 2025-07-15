@@ -42,7 +42,7 @@
   <p align="center">
     <sep>*</sep>Equal Contribution
     <sep>✝</sep>Project Adviser
-    <sep>§</sep>Corresponding Author
+    <sep>§</sep>Corresponding Author, Project Lead
   </p>
 
   <p align="center">
