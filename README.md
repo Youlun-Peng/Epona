@@ -42,12 +42,13 @@
   <p align="center">
     <sep>*</sep>Equal Contribution
     <sep>✝</sep>Project Adviser
-    <sep>§</sep>Corresponding Author, Project Lead
+    <sep>§</sep>Project Lead, Corresponding Author
   </p>
 
   <p align="center">
     <a href="https://arxiv.org/pdf/2506.24113"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-2506.24113-b31b1b.svg"></a>
     <a href="https://kevin-thu.github.io/Epona/"><img alt='page' src="https://img.shields.io/badge/Project-Website-orange"></a>
+  <a href="https://huggingface.co/Kevin-thu/Epona"><img alt="Huggingface" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Epona-orange"></a>
     <!-- <a href="https://twitter.com/sze68zkw"><img alt='Twitter' src="https://img.shields.io/twitter/follow/sze68zkw?label=%40KaiwenZhang"></a> -->
   </p>
 
