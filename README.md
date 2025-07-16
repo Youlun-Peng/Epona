@@ -101,10 +101,10 @@ Then, you can run different scripts in `scripts/test` folder to test *Epona* for
 For example, to test the model on NuPlan test set, you can run:
 ```bash
 python3 scripts/test/test_nuplan.py \
---exp_name "test-nuplan" \
---start_id 0 --end_id 100 \
---resume_path "pretrained/epona_nuplan.pkl" \\
---config configs/dit_config_dcae_nuplan.py
+  --exp_name "test-nuplan" \
+  --start_id 0 --end_id 100 \
+  --resume_path "pretrained/epona_nuplan.pkl" \
+  --config configs/dit_config_dcae_nuplan.py
 ```
 where:
 - `exp_name` is the name of the experiment;
