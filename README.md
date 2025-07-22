@@ -71,7 +71,7 @@ To run the code with CUDA properly, you can comment out `torch` and `torchvision
 
 
 ### Data Preparation
-Please refer to [data preparation](./data/README.md) for more details to prepare and preprocess data.
+Please refer to [data preparation](./data_preparation/README.md) for more details to prepare and preprocess data.
 
 After preprocessing, please change the `datasets_paths` in the config files (under `configs` folder) to your own data path.
 
