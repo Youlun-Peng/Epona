@@ -44,7 +44,7 @@ def add_arguments():
     
     
     args = parser.parse_args()
-    cfg = Config.fromfile(args.config)
+    cfg = Config.fromfile(args.config, lazy_import=True)
     cfg.merge_from_dict(args.__dict__)
     return cfg
 

@@ -12,6 +12,7 @@ import tempfile
 import types
 import uuid
 import warnings
+import re
 from argparse import Action, ArgumentParser, Namespace
 from collections import OrderedDict, abc
 from contextlib import contextmanager
@@ -1333,7 +1334,7 @@ class Config:
             )
 
         filename = osp.abspath(osp.expanduser(filename))
-        check_file_exist(filename)
+        # check_file_exist(filename)
         fileExtname = osp.splitext(filename)[1]
         if fileExtname not in ['.py', '.json', '.yaml', '.yml']:
             raise OSError('Only py/yml/yaml/json type are supported now!')

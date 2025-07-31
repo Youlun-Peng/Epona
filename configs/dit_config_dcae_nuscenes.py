@@ -3,10 +3,10 @@ seed=1234
 
 #! Dataset paths
 datasets_paths=dict(
-    nuscense_root='',
-    nuscense_train_json_path='',
-    nuscense_val_json_path='',
-    
+    nuscense_root='/data/nuscenes',
+    nuscense_train_json_path='/data/nuscenes/nuscenes_train.json',
+    nuscense_val_json_path='/data/nuscenes/nuscenes_val.json',
+
     nuplan_root= '',
     nuplan_json_root= '',
 )
@@ -25,7 +25,7 @@ vae_embed_dim=32
 downsample_size=32
 patch_size=1
 vae='DCAE_f32c32'
-vae_ckpt='' #! VAE checkpoint path
+vae_ckpt='./pretrained/dcae_td_20000.pkl' #! VAE checkpoint path
 add_encoder_temporal=False
 add_decoder_temporal=False
 temporal_patch_size=1

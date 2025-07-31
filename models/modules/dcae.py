@@ -724,7 +724,7 @@ class DCAE(nn.Module):
                 state_dict = load_sft(self.cfg.pretrained_path, device="cpu")
             else:
                 state_dict = torch.load(self.cfg.pretrained_path, map_location="cpu", weights_only=True)["model"]
-            self.load_state_dict(state_dict)
+            self.load_state_dict(state_dict, strict=False)
             print(f"load from {self.cfg.pretrained_path}")
             del state_dict
         else:
