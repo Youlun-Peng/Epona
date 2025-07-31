@@ -7,6 +7,8 @@ models/modules/__pycache__/*
 utils/__pycache__/*
 
 outpus/*
+data/*
+nuScenes/*
 
 __pycache__/*
 
@@ -23,10 +25,14 @@ __pycache__/*
 *.json
 *.txt
 
+*.pyc
+*.pkl
+
 job_log/*
 job_tboard/*
 outputs/*
 save_video/*
+test_videos/*
 
 *.png
 
