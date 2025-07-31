@@ -3,9 +3,9 @@ seed=1234
 
 #! Dataset paths
 datasets_paths=dict(
-    nuscense_root='/data/nuscenes',
-    nuscense_train_json_path='/data/nuscenes/nuscenes_train.json',
-    nuscense_val_json_path='/data/nuscenes/nuscenes_val.json',
+    nuscense_root='./nuScenes',
+    nuscense_train_json_path='./nuScenes/nuscenes_train.json',
+    nuscense_val_json_path='./nuScenes/nuscenes_val.json',
 
     nuplan_root= '',
     nuplan_json_root= '',

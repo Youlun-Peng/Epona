@@ -1,11 +1,18 @@
-FROM nvidia/cuda:12.4.1-cudnn-runtime-ubuntu22.04
+FROM nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
 LABEL maintainer="Youlun Peng"
 
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get -y update \
     && apt-get install -y software-properties-common \
-    && add-apt-repository ppa:deadsnakes/ppa
+    && add-apt-repository ppa:deadsnakes/ppa \
+    && apt-get install -y locales \
+    && locale-gen en_US.UTF-8 \
+    && update-locale LANG=en_US.UTF-8
+
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US:en
+ENV LC_ALL en_US.UTF-8
 
 RUN apt install -y bash \
     build-essential \

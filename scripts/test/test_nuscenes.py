@@ -112,7 +112,7 @@ def test_sliding_window_img(val_data, model, args, tokenizer):
 def main(args):
     local_rank = 0
     model = TrainTransformersDiT(args, load_path=args.resume_path, local_rank=local_rank, condition_frames=args.condition_frames)
-    test_dataset = TrainDataset('nuScenes', 'nuscenes_val.json', condition_frames=args.condition_frames+args.test_video_frames+args.traj_len, downsample_fps=args.downsample_fps, h=args.image_size[0], w=args.image_size[1])
+    test_dataset = TrainDataset(args.datasets_paths.nuscense_root, args.datasets_paths.nuscense_val_json_path, condition_frames=args.condition_frames+args.test_video_frames+args.traj_len, downsample_fps=args.downsample_fps, h=args.image_size[0], w=args.image_size[1])
     start_id, end_id = args.start_id, min(args.end_id, len(test_dataset))
     test_dataset = Subset(test_dataset, list(range(start_id, end_id))) # +list(range(100-10, 100, 2))+list(range(1000-10, 1000+5, 2)))
 

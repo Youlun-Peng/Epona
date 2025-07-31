@@ -1,5 +1,6 @@
 import os
 import sys
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import math
 import time
 import torch
@@ -51,7 +52,7 @@ def add_arguments():
     parser.add_argument('--eval_steps', type=int, default=2000)
     parser.add_argument('--load_from_deepspeed', default=None, type=str, help='pretrained path')
     args = parser.parse_args()
-    cfg = Config.fromfile(args.config)
+    cfg = Config.fromfile(args.config, lazy_import=True)
     cfg.merge_from_dict(args.__dict__)
     return cfg
 
